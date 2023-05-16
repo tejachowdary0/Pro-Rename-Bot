@@ -1,7 +1,7 @@
 class Translation(object):
     
     START_TXT = """ <b> Hi {} ,
- I'm A Simple Rename Bot With Permanent Thumbnail And Custom Caption support!</b>
+ I am a powerful rename bot! With 2GB+ file support and custom thumbnail and caption features.</b>
 <b>Click help button to know more about me !</b>\n 
 """
     PROGRESS_BAR = """\n
@@ -16,18 +16,23 @@ class Translation(object):
 ├<b>⏱️ : {4}</b>
 ╰─────────────────⍟"""
     HELP_TXT = """
-<b><i><u>✨ AVAILABLE COMMANDS:</u> 
-➢ /rename - To rename a file or video or audio
-➢ /settings - To configure your configs 
-➢ /addcaption - To add a custom caption
-➢ /showcaption - To show your custom caption
-➢ /deletethumb - To remove your custom thumbnail 
-➢ /showthumb - To show your custom thumbnail
+<b><i><u>✨ AVAILABLE COMMANDS:</u>
+➢ /start - check i'm alive 
+➢ /plans - check available plan info
+➢ /settings - configure your settings 
+➢ /queue - check your queued task status
+➢ /addcaption - To add your custom caption 
+➢ /showcaption - To see your custom caption
+➢ /deletecaption - To delete your custom caption
+➢ /showthumb - To see your custom thumbnail
+➢ /deletethumb - To delete your custom thumbnail
+➢ /add_prefix - To add a prefix along with your filename 
+➢ /add_suffix - To add a suffix along with your filename 
+
 <u>🔥 FEATURES:</u>
-➻ support custom caption
-➻ support custom thumbnail 
-➻ Available three upload mode  
-➻ support broadcast</i></b>
+• upgrade your premium plan for Better renaming experience.
+• send a photo to me to add as custom Thumbnail.
+• send your files to me to rename..</i></b>
 """ 
     OWNER_COMMANDS_TXT = """
 <b><i><u>👨 OWNER COMMANDS:</u>
